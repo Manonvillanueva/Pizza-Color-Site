@@ -1,0 +1,9 @@
+.nav-container {
+  position: fixed;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #333;
+  transition: left 0.3s ease-in-out;
+  z-index: 50;
+}
