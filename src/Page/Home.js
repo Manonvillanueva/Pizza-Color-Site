@@ -6,20 +6,12 @@ import pizzaFull from "../assets/img/pizza full.png";
 import funFactImg from "../assets/img/woman pizza.jpg";
 import Newsletter from "../Components/Newsletter";
 import Menu from "../Components/Menu";
-import Navigation from "../Components/Navigation";
 import "../Style/home.css";
 
 const Home = () => {
-  const [visible, setVisible] = useState(false);
-  const displayNav = () => {
-    setVisible(!visible);
-  };
   return (
     <div className="home-container">
-      {visible ? <Navigation visible={visible} /> : null}
-
       <div className="header-accueil">
-        <Header displayNav={displayNav} />
         <div className="title-container">
           <h1>Pizza Di Roma</h1>
           <p>From Italy With Love</p>

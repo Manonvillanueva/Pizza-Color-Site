@@ -1,0 +1,52 @@
+/* HEADER CONTACT  */
+.header-contact {
+  background: #fab308;
+}
+
+.header-contact-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 90px 0px 70px;
+}
+
+/* title  */
+.title-contact h2 {
+  color: white;
+  font-weight: 900;
+  margin-right: 200px;
+}
+
+/* email  */
+.title-contact p {
+  font-family: Montserrat, verdana;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.socialDiv {
+  display: flex;
+  align-items: center;
+  margin: 100px 0 30px;
+}
+
+.socialDiv p {
+  width: 60%;
+  line-height: 25px;
+}
+
+.socialUl {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 40%;
+}
+
+/* social logo  */
+.socialUl img {
+  width: 65px;
+}
+
+/* hearts */
+.three-hearts-contact {
+  width: 570px;
+}

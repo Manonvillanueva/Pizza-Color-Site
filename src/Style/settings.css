@@ -2,8 +2,24 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 body {
   height: 100vh;
+}
+
+h1 {
+  font-family: Montserrat, verdana;
+  font-size: 170px;
+}
+
+h2 {
+  font-family: Montserrat, verdana;
+  font-size: 72px;
+}
+
+p,
+span {
+  font-family: Open-Sans, verdana;
 }

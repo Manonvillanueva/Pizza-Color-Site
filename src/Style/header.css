@@ -3,6 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 10px;
 }
 
 /* LEFT PART  */

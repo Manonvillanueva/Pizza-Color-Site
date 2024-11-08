@@ -1,0 +1,45 @@
+/* CALL CONTAINER  */
+.call-container {
+  padding: 90px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #4b9c6e;
+  color: white;
+}
+
+/* stars */
+.three-stars-call {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.three-stars-call img {
+  width: 290px;
+}
+
+.three-stars-call p {
+  font-size: 60px;
+  font-family: Montserrat, verdana;
+  font-weight: 700;
+}
+
+.call-container > p {
+  font-size: 20px;
+  margin: 20px;
+  max-width: 490px;
+}
+
+/* phone number  */
+.call-container span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.call-container span:hover {
+  cursor: pointer;
+  color: #fab308;
+}

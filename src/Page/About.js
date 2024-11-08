@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../Components/Header";
 import parmaPizza from "../assets/img/pizza parma.png";
 import basilicAndPizza from "../assets/img/basilic and pizza.jpeg";
@@ -11,7 +11,6 @@ const About = () => {
   return (
     <div className="about-container">
       <div className="header-about">
-        <Header />
         <img src={parmaPizza} alt="pizza" />
         <div>
           <p>Parma ham and arugula</p>
