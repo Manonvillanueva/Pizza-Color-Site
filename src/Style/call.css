@@ -5,11 +5,11 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: #4b9c6e;
-  color: white;
+  background: var(--green);
+  color: var(--white);
 }
 
-/* stars */
+/* STARS AND TITLE CONTAINER */
 .three-stars-call {
   display: flex;
   flex-direction: column;
@@ -17,10 +17,12 @@
   justify-content: center;
 }
 
+/* stars */
 .three-stars-call img {
   width: 290px;
 }
 
+/* title  */
 .three-stars-call p {
   font-size: 60px;
   font-family: Montserrat, verdana;
@@ -41,5 +43,5 @@
 
 .call-container span:hover {
   cursor: pointer;
-  color: #fab308;
+  color: var(--yellow);
 }

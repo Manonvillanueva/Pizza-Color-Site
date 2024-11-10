@@ -1,1 +1,72 @@
+/* CONTAINER  */
+.newsletter-container {
+  display: flex;
+  height: 700px;
+}
 
+/* LEFT-PART  */
+.left-part-news {
+  color: var(--white);
+  background: var(--ocre);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.newsletter {
+  padding: 0px 20px 0px 120px;
+}
+
+.left-part-news p:first-of-type {
+  font-family: Montserrat, Verdana;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 20px 50px 0px;
+}
+
+.left-part-news p:last-of-type {
+  font-style: italic;
+  font-size: 20px;
+  margin-right: 20px;
+  line-height: 30px;
+}
+
+/* form  */
+.submit-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+/* input mail  */
+.submit-container input {
+  width: 380px;
+  padding: 10px 12px;
+  font-size: 18px;
+  outline: none;
+}
+
+/* btn submit  */
+.submit-container button {
+  width: 110px;
+  font-size: 18px;
+  text-transform: capitalize;
+  background: var(--yellow);
+  border: none;
+  cursor: pointer;
+}
+
+/* RIGHT PART  */
+.right-part-news {
+  width: 50%;
+  background: url(../assets/img/white\ background.jpg) center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-newsletter {
+  width: 350px;
+  transform: rotate(70deg);
+}

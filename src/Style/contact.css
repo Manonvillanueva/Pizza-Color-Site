@@ -1,6 +1,6 @@
 /* HEADER CONTACT  */
 .header-contact {
-  background: #fab308;
+  background: var(--yellow);
 }
 
 .header-contact-container {
@@ -11,9 +11,9 @@
 
 /* title  */
 .title-contact h2 {
-  color: white;
+  color: var(--white);
   font-weight: 900;
-  margin-right: 200px;
+  width: 800px;
 }
 
 /* email  */
@@ -26,19 +26,19 @@
 .socialDiv {
   display: flex;
   align-items: center;
-  margin: 100px 0 30px;
 }
 
 .socialDiv p {
-  width: 60%;
+  width: 570px;
   line-height: 25px;
+  margin: 80px 30px 50px 0px;
 }
 
 .socialUl {
   display: flex;
   justify-content: flex-end;
   gap: 20px;
-  width: 40%;
+  flex: 1;
 }
 
 /* social logo  */

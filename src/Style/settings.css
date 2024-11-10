@@ -1,3 +1,12 @@
+:root {
+  --white: rgb(252, 252, 252);
+  --black: rgb(17, 17, 17);
+  --grey: #404040;
+  --green: #4b9c6e;
+  --yellow: #fab308;
+  --ocre: #b84b23;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
