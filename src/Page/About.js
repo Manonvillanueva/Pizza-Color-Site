@@ -1,18 +1,18 @@
-import React, { useState } from "react";
-import Header from "../Components/Header";
+import React from "react";
 import parmaPizza from "../assets/img/pizza parma.png";
-import basilicAndPizza from "../assets/img/basilic and pizza.jpeg";
 import star5 from "../assets/img/star 5.png";
 import heart from "../assets/img/heart .png";
+import threeHearts from "../assets/img/three hearts.png";
 import Menu from "../Components/Menu";
 import Call from "../Components/Call";
+import "../Style/about.css";
 
 const About = () => {
   return (
     <div className="about-container">
       <div className="header-about">
-        <img src={parmaPizza} alt="pizza" />
-        <div>
+        <div className="bloc-pizza-header">
+          <img src={parmaPizza} alt="pizza" />
           <p>Parma ham and arugula</p>
           <p>Tomato base, mozzarella, Parma ham, arugula</p>
           <span>$ 21</span>
@@ -21,21 +21,23 @@ const About = () => {
 
       <div className="business-lunch">
         <div className="left-part-business">
-          <p>
+          <div className="round-percent">
             <span>40%</span>
-            business lunch
-          </p>
+            <p>
+              <span>business</span>
+              <span>lunch</span>
+            </p>
+          </div>
           <h2>Where every ingredient tells a story</h2>
           <img src={star5} alt="star" />
         </div>
         <div className="right-part-business">
-          <img src={basilicAndPizza} alt="pizza" />
           <img src={heart} alt="heart" />
         </div>
       </div>
 
       <div className="menu-about">
-        <img src="" alt="" />
+        <img src={threeHearts} alt="three hearts" />
         <p>Italy Pizza Menu</p>
         <Menu />
       </div>

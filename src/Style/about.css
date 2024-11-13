@@ -1,0 +1,132 @@
+/* HEADER  */
+.header-about {
+  background: var(--ocre);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 530px;
+}
+
+.header-about img {
+  width: 250px;
+}
+
+.bloc-pizza-header {
+  padding: 30px;
+  background: var(--white);
+  border: 10px solid var(--grey);
+  width: 680px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 80px;
+}
+
+.bloc-pizza-header p:first-of-type {
+  font-family: Montserrat, verdana;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.bloc-pizza-header p:last-of-type {
+  font-style: italic;
+  font-size: 20px;
+  padding: 30px 0;
+}
+
+.bloc-pizza-header span {
+  font-family: Montserrat, verdana;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* BUSINESS PART  */
+.business-lunch {
+  display: flex;
+  background: var(--green);
+  height: 690px;
+}
+
+/* left-part business  */
+.left-part-business {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0px 30px 0px 50px;
+}
+
+/* round  */
+.round-percent {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 8px solid var(--black);
+  background: var(--yellow);
+}
+
+.round-percent > span {
+  font-family: Montserrat, verdana;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.round-percent p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.left-part-business h2 {
+  color: var(--white);
+  font-size: 60px;
+}
+
+/* star  */
+.left-part-business img {
+  width: 90px;
+  align-self: center;
+}
+
+/* right-part business  */
+.right-part-business {
+  width: 50%;
+  background: url(../assets/img/basilic\ and\ pizza.jpeg) right/cover;
+  position: relative;
+}
+
+.right-part-business img {
+  width: 180px;
+  transform: rotate(-30deg);
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+}
+
+.menu-about {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-about img {
+  width: 200px;
+}
+
+.menu-about p {
+  font-family: Montserrat, verdana;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 10px 0 60px 0;
+}

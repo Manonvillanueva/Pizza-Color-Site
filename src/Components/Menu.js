@@ -1,10 +1,11 @@
 import React from "react";
 import parmaPizza from "../assets/img/pizza parma.png";
-import basilicPizza from "../assets/img/basilic and pizza.jpeg";
+import marghePizza from "../assets/img/marghe pizza.png";
 import pasta from "../assets/img/pasta.jpg";
 import tiramisu from "../assets/img/tiramisu.jpg";
 import minestrone from "../assets/img/minestrone.jpeg";
 import pizzaFull from "../assets/img/pizza full.png";
+import "../Style/menu.css";
 
 const Menu = () => {
   const dishes = [
@@ -16,7 +17,7 @@ const Menu = () => {
     },
     {
       name: "Mozzarella and fresh basil",
-      image: basilicPizza,
+      image: marghePizza,
       description:
         "Nulla consequat massa quis enim. Donec pede justo fringilla vel.",
     },
@@ -48,7 +49,7 @@ const Menu = () => {
   return (
     <div className="menu-container">
       {dishes.map((dish) => (
-        <div key={dish.name}>
+        <div className="dish-container" key={dish.name}>
           <h3>{dish.name}</h3>
           <img src={dish.image} alt={dish.name} />
           <p>{dish.description}</p>

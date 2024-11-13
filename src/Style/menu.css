@@ -1,0 +1,35 @@
+.menu-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1200px;
+}
+
+.dish-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 370px;
+  height: 650px;
+  padding: 20px 10px;
+  background: var(--beige);
+  font-family: Monteserrat, verdana;
+}
+
+.dish-container h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.dish-container img {
+  width: 100%;
+  padding: 30px 0;
+}
+
+.dish-container p {
+  font-family: Montserrat, verdana;
+  font-size: 20px;
+  font-weight: bold;
+  width: 80%;
+}
