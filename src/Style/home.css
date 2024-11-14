@@ -1,1 +1,153 @@
+.color-header-container {
+  background: var(--ocre);
+}
 
+.header-accueil {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-container {
+  color: var(--white);
+  font-family: Montserrat, verdana;
+}
+
+.title-container p:first-of-type {
+  font-size: 60px;
+  font-family: Montserrat, verdana;
+  font-weight: 800;
+}
+
+.title-container p:last-of-type {
+  font-size: 30px;
+  font-family: Montserrat, verdana;
+  font-weight: bold;
+  color: var(--black);
+  padding: 50px 0 10px 0;
+}
+
+.pizza-header-accueil {
+  display: flex;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.pizza-header-accueil img:first-of-type {
+  position: absolute;
+}
+
+.pizza-header-accueil img:last-of-type {
+  width: 800px;
+  margin-left: auto;
+}
+
+.story-pizza {
+  display: flex;
+  height: 640px;
+}
+
+.left-part-story {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-right: 10px;
+  background: var(--green);
+  color: var(--white);
+}
+
+.left-part-story h2 {
+  width: 550px;
+}
+
+.left-part-story p {
+  width: 550px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.right-part-story {
+  width: 50%;
+  background: url(../assets//img/white\ background.jpg) center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-part-story img {
+  width: 550px;
+}
+
+.fun-fact {
+  padding: 10px 10px 10px 0;
+  height: 750px;
+  display: flex;
+  background: url(../assets/img/ocre-background.jpg) center/cover;
+  overflow: hidden;
+}
+
+.left-fun-fact {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.fun-fact-img {
+  width: 380px;
+  height: 500px;
+  background: url(../assets/img/woman\ pizza.jpg) center/cover;
+  transform: rotate(-30deg);
+}
+
+.right-fun-fact {
+  width: 50%;
+  margin-top: auto;
+}
+
+.right-fun-fact h2 {
+  font-size: 60px;
+  color: var(--white);
+}
+
+.right-fun-fact p {
+  width: 500px;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 30px;
+  padding-top: 30px;
+}
+
+.contact-accueil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--yellow);
+  height: 550px;
+  gap: 40px;
+}
+
+.contact-accueil p {
+  font-family: Montserrat, verdana;
+  font-size: 60px;
+  font-weight: 800;
+  width: 700px;
+  text-align: center;
+}
+
+.contact-accueil button {
+  background: var(--green);
+  color: var(--white);
+  border: none;
+  font-family: Montserrat, verdana;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 60px;
+  cursor: pointer;
+}
+
+.contact-accueil button:hover {
+  background: var(--green1);
+}

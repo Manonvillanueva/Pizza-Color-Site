@@ -37,8 +37,12 @@ const About = () => {
       </div>
 
       <div className="menu-about">
-        <img src={threeHearts} alt="three hearts" />
-        <p>Italy Pizza Menu</p>
+        <img
+          className="hearts-menu-about"
+          src={threeHearts}
+          alt="three hearts"
+        />
+        <p className="title-menu-about">Italy Pizza Menu</p>
         <Menu />
       </div>
 

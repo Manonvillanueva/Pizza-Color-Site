@@ -1,9 +1,7 @@
-import React, { useState } from "react";
-import Header from "../Components/Header";
+import React from "react";
 import slicePizza from "../assets/img/slice pizza.png";
 import megaPizza from "../assets/img/pizza .png";
 import pizzaFull from "../assets/img/pizza full.png";
-import funFactImg from "../assets/img/woman pizza.jpg";
 import Newsletter from "../Components/Newsletter";
 import Menu from "../Components/Menu";
 import "../Style/home.css";
@@ -11,15 +9,17 @@ import "../Style/home.css";
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="header-accueil">
-        <div className="title-container">
-          <h1>Pizza Di Roma</h1>
-          <p>From Italy With Love</p>
-          <p>From 10:00 PM Everyday</p>
-        </div>
-        <div className="pizza-header-accueil">
-          <img src={slicePizza} alt="part de pizza" />
-          <img src={megaPizza} alt="pizza" />
+      <div className="color-header-container">
+        <div className="header-accueil">
+          <div className="title-container">
+            <h1>Pizza Di Roma</h1>
+            <p>From Italy With Love</p>
+            <p>From 10:00 PM Everyday</p>
+          </div>
+          <div className="pizza-header-accueil">
+            <img src={slicePizza} alt="part de pizza" />
+            <img src={megaPizza} alt="pizza" />
+          </div>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ const Home = () => {
 
       <div className="fun-fact">
         <div className="left-fun-fact">
-          <img src={funFactImg} alt="pizza" />
+          <div className="fun-fact-img"></div>
         </div>
         <div className="right-fun-fact">
           <h2>The World's Most Popular Food Headline</h2>

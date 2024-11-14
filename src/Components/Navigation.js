@@ -9,13 +9,20 @@ const Navigation = ({ visible, displayNav }) => {
   return (
     <div className={`nav-container ${visible && "visible"}`}>
       {/* Fermeture de la navigation*/}
-      <div className="closeNav" onClick={displayNav}></div>
+      <div className="close-nav" onClick={displayNav}>
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
       <ul>
         {/* Création de la liste d'éléments de la nav  */}
         {navLi.map((li) => {
           return (
             <li key={li}>
-              <NavLink onClick={displayNav} to={`/${li.toLocaleLowerCase()}`}>
+              <NavLink
+                className="navLink-navigation"
+                onClick={displayNav}
+                to={`/${li.toLocaleLowerCase()}`}
+              >
                 {li}
               </NavLink>
             </li>

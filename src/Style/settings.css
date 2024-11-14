@@ -1,9 +1,12 @@
 :root {
   --white: rgb(252, 252, 252);
   --black: rgb(17, 17, 17);
+  --black1: #000000e3;
   --grey: #404040;
   --green: #4b9c6e;
+  --green1: #3e825b;
   --yellow: #fab308;
+  --yellow1: #d99a05;
   --ocre: #b84b23;
   --beige: #fbf0e8;
 }
@@ -31,5 +34,5 @@ h2 {
 
 p,
 span {
-  font-family: Open-Sans, verdana;
+  font-family: "Open Sans", verdana;
 }

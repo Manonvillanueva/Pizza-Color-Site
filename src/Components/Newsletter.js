@@ -1,5 +1,6 @@
 import React from "react";
 import imgNewsletter from "../assets/img/basilic and pizza.jpeg";
+import heart from "../assets/img/heart .png";
 import "../Style/newsletter.css";
 
 const Newsletter = () => {
@@ -28,6 +29,7 @@ const Newsletter = () => {
       {/* RIGHT PART  */}
       <div className="right-part-news">
         <img src={imgNewsletter} alt="pizza" className="img-newsletter" />
+        <img className="heart-right-part-news" src={heart} alt="heart" />
       </div>
     </div>
   );

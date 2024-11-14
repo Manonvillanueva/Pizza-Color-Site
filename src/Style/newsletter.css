@@ -57,6 +57,10 @@
   cursor: pointer;
 }
 
+.submit-container button:hover {
+  background: var(--yellow1);
+}
+
 /* RIGHT PART  */
 .right-part-news {
   width: 50%;
@@ -64,9 +68,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .img-newsletter {
   width: 350px;
   transform: rotate(70deg);
+}
+
+.heart-right-part-news {
+  left: 10%;
+  top: 15%;
+  position: absolute;
+  transform: rotate(-30deg);
+  width: 100px;
 }

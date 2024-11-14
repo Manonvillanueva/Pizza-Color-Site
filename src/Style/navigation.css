@@ -3,6 +3,46 @@
   top: 0;
   width: 250px;
   height: 100vh;
-  background-color: #333;
+  background-color: black;
   z-index: 50;
+  padding: 30px 5px;
+}
+
+.close-nav {
+  width: 25px;
+  height: 25px;
+  margin-left: auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.line1,
+.line2 {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: var(--white);
+}
+
+.line1 {
+  transform: rotate(-45deg);
+}
+
+.line2 {
+  transform: rotate(45deg);
+}
+
+.nav-container ul {
+  text-align: center;
+}
+
+.navLink-navigation {
+  text-decoration: none;
+  color: var(--white);
+  font-family: "Open Sans", verdana;
+  font-size: 20px;
+}
+
+.navLink-navigation:hover {
+  color: var(--grey);
 }
